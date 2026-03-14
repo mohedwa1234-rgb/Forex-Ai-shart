@@ -219,4 +219,4 @@ This project is open source and available for personal and commercial use.
 
 ---
 
-**تم البناء بـ ❤️ من مصر | Built with ❤️ from Egypt**
+*تم البناء بـ ❤️ من فلسطين | Built with ❤️ from Egypt**
