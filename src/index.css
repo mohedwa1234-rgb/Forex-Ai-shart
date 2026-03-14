@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 0 255 136;
+    --color-secondary: 255 70 85;
+    --color-dark: 10 10 20;
+    --color-gold: 255 215 0;
+  }
+  
+  body {
+    @apply bg-gray-900 text-white;
+    font-family: 'Tajawal', 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .ar-overlay {
+    @apply absolute top-0 left-0 right-0 bottom-0 pointer-events-none;
+    background: linear-gradient(45deg, rgba(0,255,136,0.1) 0%, transparent 100%);
+  }
+  
+  .signal-buy {
+    @apply text-green-400 font-bold;
+    text-shadow: 0 0 10px rgba(0,255,136,0.5);
+  }
+  
+  .signal-sell {
+    @apply text-red-500 font-bold;
+    text-shadow: 0 0 10px rgba(255,70,85,0.5);
+  }
+  
+  .glass-panel {
+    @apply backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl;
+  }
+}
